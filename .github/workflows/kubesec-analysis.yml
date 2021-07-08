@@ -19,8 +19,8 @@ jobs:
     name: Kubesec
     runs-on: ubuntu-20.04
     permissions:
-      actions: read
-      contents: read
+      actions: write
+      contents: write
       security-events: write
     steps:
       - name: Checkout code
